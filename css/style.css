@@ -10,11 +10,48 @@ RESET
 /*
 COMMON
 */
+ul {
+  list-style-type: none;
+}
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+  border-style: none;
+  padding: 5px 5px;
+  background-color: #ffffff;
+  margin-left: -15px;
+}
+
+.btn-2 {
+  background-color: #0061ff;
+}
 /*
 HEADER-TOP
 */
+.conteiner-top {
+  background-color: #ffffff;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
 
+.list-left,
+.list-right {
+  display: flex;
+  padding: 25px 20px;
+}
+
+.list-left li {
+  padding-right: 40px;
+}
+
+.list-right li {
+  padding-left: 30px;
+}
 /*
 HEADER-BOTTOM
 */
