@@ -107,3 +107,38 @@ HEADER-BOTTOM
 /*
 MAIN
 */
+.main-top {
+  max-width: 1000px;
+  background-color: green;
+  margin: 130px auto;
+}
+
+.main-box {
+  display: flex;
+}
+
+.main-top .top-h2 {
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 30px;
+  padding-left: 80px;
+}
+
+.main-top .sp {
+  padding: 0px 20px;
+  margin-left: 60px;
+}
+
+.article-1,
+.article-2,
+.article-3 {
+  background-color: aqua;
+  width: 30%;
+  height: 600px;
+  border: 1px solid black;
+  margin: 30px auto;
+}
+
+.icona-top {
+  border: 1px solid black;
+}
