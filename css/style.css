@@ -20,13 +20,14 @@ body {
 
 .btn {
   border-style: none;
-  padding: 5px 5px;
+  padding: 5px 10px;
   background-color: #ffffff;
-  margin-left: -15px;
+  margin-left: -20px;
 }
 
 .btn-2 {
   background-color: #0061ff;
+  color: white;
 }
 /*
 HEADER-TOP
@@ -34,7 +35,6 @@ HEADER-TOP
 .conteiner-top {
   background-color: #ffffff;
   height: 80px;
-  width: 100vw;
   display: flex;
   justify-content: space-between;
 }
@@ -52,6 +52,58 @@ HEADER-TOP
 .list-right li {
   padding-left: 30px;
 }
+
 /*
 HEADER-BOTTOM
+*/
+#bottom {
+  height: 630px;
+  background-color: #b4d0e7;
+}
+
+.conteiner-bottom {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.conteiner-bottom h1 {
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.conteiner-box {
+  display: flex;
+}
+
+.box-left {
+  width: 30%;
+  margin-left: 150px;
+}
+
+.box-right {
+  width: 70%;
+}
+
+.box-right img {
+  width: 100%;
+}
+
+.box-left button {
+  margin-left: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-left #annulla {
+  padding-bottom: 50px;
+}
+
+.box-left span {
+  font-size: 40px;
+}
+
+/*
+MAIN
 */
