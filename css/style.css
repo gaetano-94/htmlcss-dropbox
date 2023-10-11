@@ -115,6 +115,7 @@ MAIN
 
 .main-box {
   display: flex;
+  justify-content: space-around;
 }
 
 .main-top .top-h2 {
@@ -132,13 +133,32 @@ MAIN
 .article-1,
 .article-2,
 .article-3 {
-  background-color: aqua;
   width: 30%;
   height: 600px;
-  border: 1px solid black;
-  margin: 30px auto;
+  border: 1px dashed #d0d0d3;
+  margin-top: 50px;
 }
 
-.icona-top {
-  border: 1px solid black;
+.icona-user {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.icona-user i {
+  padding-right: 2px;
+}
+
+hr {
+  margin-top: 10px;
+  background-color: #d0d0d3;
+  opacity: 0.5;
+}
+
+.box-tariffa {
+  padding: 30px 30px;
+}
+
+.btn-box {
+  margin-left: 50px;
+  margin-top: 40px;
 }
