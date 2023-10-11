@@ -188,3 +188,36 @@ hr {
 }
 
 /*SEZIONE-2*/
+.conteiner-img {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box-img {
+  display: flex;
+  width: 60%;
+}
+
+.box-img img {
+  width: 100%;
+}
+
+.box-text {
+  width: 40%;
+  padding: 80px 40px;
+}
+
+.box-text h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.btn-text {
+  margin: 30px 2px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid black;
+}
