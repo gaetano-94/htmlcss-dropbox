@@ -168,4 +168,23 @@ hr {
   padding-bottom: 40px;
 }
 
+.article-4 {
+  display: flex;
+  width: 970px;
+  margin: 0 auto;
+  border: 1px dashed #d0d0d3;
+}
+
+.box-bottom {
+  padding: 20px 20px;
+}
+
+.bottom {
+  width: 970px;
+  border: 1px dashed #d0d0d3;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
 /*SEZIONE-2*/
