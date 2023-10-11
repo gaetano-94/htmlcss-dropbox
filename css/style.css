@@ -107,9 +107,10 @@ HEADER-BOTTOM
 /*
 MAIN
 */
+
+/*SEZIONE-1*/
 .main-top {
   max-width: 1000px;
-  background-color: green;
   margin: 130px auto;
 }
 
@@ -134,7 +135,6 @@ MAIN
 .article-2,
 .article-3 {
   width: 30%;
-  height: 600px;
   border: 1px dashed #d0d0d3;
   margin-top: 50px;
 }
@@ -161,4 +161,11 @@ hr {
 .btn-box {
   margin-left: 50px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
+
+.span-link {
+  padding-bottom: 40px;
+}
+
+/*SEZIONE-2*/
